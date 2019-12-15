@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; 
+  background-image: url("../images/criss-cross.png");
+}
+
+.navbar-light .navbar-brand {
+
+  background: #4aaaa5;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 2%;
+  margin-left: 5%;
+} 
+.Nav-buttons {
+  float: right;
+}
+li {
+  list-style-type: none;
+  display: inline-block;  
+  padding: 15px; 
+  color: gray;
+}
+li a {
+  text-decoration: none;  
+  list-style-type: none;
+  display: inline-block;  
+  padding: 15px; 
+  color: gray;
+}
+.nav-link {
+  font-size: 125%;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  color: gray;
+}
+#myImage {
+  height: 355px;
+  width: 355px;
+  float: none;
+  margin-left: 16%;
+}
+p {
+  font-size: 125%;
+  color: gray;
+  line-height: 1.5;
+ 
+}
+.card-img-top {
+  height: 200px;
+ 
+}
+/* .sectionHeader{
+  font-size: 150%;
+  font-weight: bold;
+  color: gray;
+  margin-left: 5%;
+}
+
+
+h1 {
+  color: #4aaaa5;
+  border-bottom: solid 1px lightgray;
+}
+body h1 {
+  color: #4aaaa5;
+}
+
+
+
+.page-header {
+  padding-top: 1%;
+}
+.row .col-sm-4{
+  padding: 0 5%;
+}
+.row .col-sm-8{
+  padding: 0 5%;
+}
+
+.card-image-top{
+  width: 150px;
+  height: 150px;
+}
+.card-body {
+  background: #4aaaa5;
+  text-align: center;
+}
+a.card-link {
+    color: #ffffff;
+}
+body label {
+  color:gray;
+}
+.btn-primary{
+  background: #4aaaa5;
+  border-color: #4aaaa5;
+  padding: 15px 30px;
+} */
+footer.page-footer.font-small.blue.fixed-bottom {
+border-top: 8px solid #4aaaa5;
+padding: 10px 20px;
+
+background: #777777
+}
+footer h5 {
+  font-size: 15px;
+  line-height: 10px;
+  color: #ffffff;
+  text-align: center;
+}
