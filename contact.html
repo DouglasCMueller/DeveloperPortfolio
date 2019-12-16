@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-sm-10">
           <div class="form-group">
-            <label for="exampleInputName">Name</label>
+            <label for="exampleInputName" id ="inputName">Name</label>
             <input type="text" class="form-control" id="exampleInputName">
           </div>
         </div>
@@ -43,7 +43,7 @@
       <div class="row">
         <div class="col-sm-10">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
+            <label for="exampleInputEmail1" id= "inputEmail">Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
         </div>
@@ -51,12 +51,12 @@
       <div class="row">
         <div class="col-sm-10">
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label for="exampleFormControlTextarea1" id="inputMessage">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="submitButton" onclick="sendEmail()">Submit</button>
     </form>
     <div class="row">
       <div class="col-sm-3">
@@ -67,6 +67,13 @@
     <footer class="page-footer font-small blue fixed-bottom">
       <h5>Copyright &copy</h5>
     </footer>
+    <script>
+      var inputName;
+      function sendEmail() {
+         inputName = value.document.getElementById("inputName");
+       alert(inputName)
+      }
+      </script>
 </body>
 
 </html>
