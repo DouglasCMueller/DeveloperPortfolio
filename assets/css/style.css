@@ -4,7 +4,9 @@ body {
   color: white; 
   background-image: url("../images/criss-cross.png");
 }
-
+.navbar  {
+  border: 3px solid grey;
+}
 .navbar-light .navbar-brand {
 
   background: #4aaaa5;
@@ -12,7 +14,13 @@ body {
   font-size: 35px;
   padding: 2%;
   margin-left: 5%;
+
 } 
+#navBarTop{
+  padding: 0;
+  background: #4aaaa5;
+
+}
 .Nav-buttons {
   float: right;
 }
@@ -38,10 +46,11 @@ li a {
   color: gray;
 }
 #myImage {
+  border: 5px solid gray;
   height: 355px;
   width: 355px;
   float: none;
-  margin-left: 16%;
+  margin-left: 13%;
 }
 p {
   font-size: 125%;
@@ -49,9 +58,23 @@ p {
   line-height: 1.5;
  
 }
+.card{
+  margin-left: 14%;
+  margin-bottom: 5%;
+}
 .card-img-top {
   height: 200px;
+ border: 2px solid grey;
+
+}
+
+.card-body{
+  border: 2px solid grey;
+
  
+}
+.card-link{
+  padding: 0;
 }
 /* .sectionHeader{
   font-size: 150%;
