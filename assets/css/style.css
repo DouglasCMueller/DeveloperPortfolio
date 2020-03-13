@@ -1,119 +1,129 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white; 
-  background-image: url("../images/criss-cross.png");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("../images/criss-cross.png");
 }
-.navbar  {
-  border: 3px solid grey;
+
+.navbar {
+    border: 3px solid grey;
 }
+
 .navbar-light .navbar-brand {
-
-  background: #4aaaa5;
-  color: #ffffff;
-  font-size: 35px;
-  padding: 2%;
-  margin-left: 5%;
-
-} 
-#navBarTop{
-  padding: 0;
-  background: #4aaaa5;
-
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 2%;
+    margin-left: 5%;
 }
+
+#navBarTop {
+    padding: 0;
+    background: #4aaaa5;
+}
+
 .Nav-buttons {
-  float: right;
+    float: right;
 }
+
 li {
-  list-style-type: none;
-  display: inline-block;  
-  padding: 15px; 
-  color: gray;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: gray;
 }
+
 li a {
-  text-decoration: none;  
-  list-style-type: none;
-  display: inline-block;  
-  padding: 15px; 
-  color: gray;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: gray;
 }
+
 .nav-link {
-  font-size: 125%;
-  text-decoration: none;
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px;
-  color: gray;
+    font-size: 125%;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    color: gray;
 }
+
 #myImage {
-  border: 5px solid gray;
-  height: 355px;
-  width: 355px;
-  float: none;
-  margin-left: 13%;
+    border: 5px solid gray;
+    height: 355px;
+    width: 355px;
+    float: none;
+    margin-left: 13%;
 }
+
 p {
-  font-size: 125%;
-  color: gray;
-  line-height: 1.5;
- 
+    font-size: 125%;
+    color: gray;
+    line-height: 1.5;
 }
-.card{
-  margin-left: 13%;
-  margin-bottom: 5%;
+
+.card {
+    margin-left: 13%;
+    margin-bottom: 5%;
 }
+
 .card-img-top {
-  height: 200px;
- border: 2px solid grey;
-
+    height: 200px;
+    border: 2px solid grey;
 }
 
-.card-body{
-  border: 2px solid grey;
-  background: #4aaaa5;
-  height: 75px;
-  text-align: center;
+.card-body {
+    border: 2px solid grey;
+    background: #4aaaa5;
+    height: 75px;
+    text-align: center;
+}
 
- 
+a.card-link {
+    font-size: 125%;
+    background: #4aaaa5;
+    color: white;
 }
-a.card-link{
-  font-size: 125%;
-  background: #4aaaa5;
-  color: white;
+
+#inputName {
+    font-size: 150%;
+    color: grey;
 }
-#inputName{
-  font-size: 150%;
-  color: grey;
+
+#inputEmail {
+    font-size: 150%;
+    color: grey;
 }
-#inputEmail{
-  font-size: 150%;
-  color: grey;
+
+#inputMessage {
+    font-size: 150%;
+    color: grey;
 }
-#inputMessage{
-  font-size: 150%;
-  color: grey;
+
+.form-group {
+    margin-left: 13%;
 }
-.form-group{
-  margin-left: 13%;
-}
-#submitButton{
-  color: white;
-  background: #4aaaa5;
-  margin-left: 10%;
-  border: 2px solid grey;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+
+#submitButton {
+    color: white;
+    background: #4aaaa5;
+    margin-left: 10%;
+    border: 2px solid grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer.page-footer.font-small.blue.fixed-bottom {
-border-top: 8px solid #4aaaa5;
-padding: 10px 20px;
-
-background: #777777
+    border-top: 8px solid #4aaaa5;
+    padding: 10px 20px;
+    background: #777777
 }
+
 footer h5 {
-  font-size: 15px;
-  line-height: 10px;
-  color: #ffffff;
-  text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    color: #ffffff;
+    text-align: center;
 }
