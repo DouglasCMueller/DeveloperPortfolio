@@ -86,7 +86,15 @@ a.card-link {
     background: #4aaaa5;
     color: white;
 }
+#mainContent{
+margin-left: 60px;
+    
+}
 
+.contactTitle {
+    color: gray;
+font-size: 25px;
+}
 #inputName {
     font-size: 150%;
     color: grey;
